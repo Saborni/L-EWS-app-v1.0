@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,19 +9,16 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Stay to learn</title>
-    
-<!--
-Mini Profile Template
-https://templatemo.com/tm-530-mini-profile
--->
   </head>
+
   <body>
       <div class="topnav">
           <a class="active" href="#home">Home</a>
-          <a href="#news">News</a>
+          <a href="#news">Tutorials</a>
           <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+          <a href="#about">About Sab</a>
       </div>
     <!-- Welcome Section -->
     <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/wallpaper-6wblur.png">
@@ -31,7 +29,8 @@ https://templatemo.com/tm-530-mini-profile
             <!-- Black transparent bg -->
             <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
               <div class="tm-brand-container text-center">
-                <h1 class="tm-brand-name">L&EWS</h1>
+                <h1><img src=img/lnewslogo.png height="200px" width="200px"></img></h1>
+                <!--<h1 class="tm-brand-name">L&EWS</h1>-->
                 <p class="tm-brand-description mb-0">A perfect home for learning...</p>
               </div>
             </div>
@@ -46,20 +45,22 @@ https://templatemo.com/tm-530-mini-profile
             <!-- White transparent bg -->
             <div class="col-md-7 tm-welcome-left-col">
               <div class="tm-welcome-left">
-                <h2 class="tm-welcome-title">To clear few basics ideas</h2>
-                <p class="pb-0">
-                  This is Bootstrap v4.3.1 parallax layout for you. Credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels</a> for 2 background images. In
-                  odio sapien, commodo id ullamcorper ac, dignissim at sapien.
-                  Nullam leo massa, vaius ac massa et, tincidunt imperdiet
-                turpis. </p>
+                <h2 class="tm-welcome-title myName">Meet Saborni</h2>
+                <p class="pb-0 myintro">
+                  He has a wonderful 3 years of IT-experience in Java along with Spring Framework and interested in Spring Boot projects.
+                  He is eager to learn new technologies and much passionate for teaching and passing on the knowledge he possess.
+                </p>
               </div>
             </div>
             <!-- Brown bg -->
             <div class="col-md-5">
-              <div class="tm-welcome-right">
-                <i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>
+                
+              <div class="tm-welcome-right text-center">
+                <!--<i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>-->
+                <img src="img/sabbestpic.jpeg" alt="Sab's pic" height="300" width="270">
                 <p class="mb-0">
-                  Please spread a word about templatemo website. Anyone can download free Bootstrap CSS templates.
+                  <br/>                  
+                  <a href="https://www.linkedin.com/in/saborni-bhattacharya-5b523812a/"><h3>Saborni Bhattacharya</h3></a>
                 </p>
               </div>
             </div>
@@ -68,15 +69,22 @@ https://templatemo.com/tm-530-mini-profile
       </div>
     </section>
     <!-- End Welcome section -->
-
+    <!-- Category section -->
+   
+    <div class="container-fluid">
+      <i class="fa fa-2x fa-folder" aria-hidden="true">&nbsp;Tutorials</i>
+    </div>
+    
+    <!-- End Category section -->
     <!-- Portfolio section -->
     <section id="tmPortfolio">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
+
             <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-green">
-                Project Manager
+              <div class="tm-portfolio-name text-white tm-bg-green subj">
+                Spring Boot
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-green">
@@ -92,43 +100,7 @@ https://templatemo.com/tm-530-mini-profile
             </div>
 
             <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-orange">
-                Senior UX Designer
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-orange">
-                  Studio One
-                  <span class="tm-title-small">(2017 April to 2018 Dec)</span>
-                </h3>
-                <p class="mb-0">
-                  Phasellus ac nulla egestas, malesuada dolor quis, scelerisque
-                  arcu. Morbi aliquam, nunc vel blandit mattis, sapien nisl
-                  convallis sem, quis hendrerit nisl tellus in lectus. Proin at
-                  nibh bibendum, tincidunt mauris sit amet, porta risus. Integer
-                  id malesuada ligula.
-                </p>
-              </div>
-            </div>
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-blue">
-                Graphic Designer
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-blue">
-                  Digital Com
-                  <span class="tm-title-small">(2015 Jan to 2016 Dec)</span>
-                </h3>
-                <p class="mb-0">
-                  Etiam porta est nisl, consectetur dapibus ante faucibus id.
-                  Nunc ullamcorper a quam eget tincidunt. Proin vehicula mauris
-                  ipsum, euismod dignissim dolor convallis ac.
-                </p>
-              </div>
-            </div>
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+              <div class="tm-portfolio-name text-white tm-bg-dark-gray subj">
                 Design School
               </div>
               <div class="tm-portfolio-description">
@@ -145,6 +117,24 @@ https://templatemo.com/tm-530-mini-profile
                 </p>
               </div>
             </div>
+
+            <div class="tm-portfolio-item">
+                <div class="tm-portfolio-name text-white tm-bg-green subj">
+                  Project Manager
+                </div>
+                <div class="tm-portfolio-description">
+                  <h3 class="tm-text-green">
+                    New Company
+                    <span class="tm-title-small">(2019 January to Present)</span>
+                  </h3>
+                  <p class="mb-0">
+                    Nullam a tellus ultricies, ornare purus vel, porttitor massa.
+                    Aliquam facilisis purus ac eros sollicidudin, in mollis neque
+                    facilisis. Duis malesuada, mi non elementum malesuada.
+                  </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -152,7 +142,7 @@ https://templatemo.com/tm-530-mini-profile
     <!-- End portfolio section -->
 
     <!-- Contact section -->
-    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img/wallpaper-1.png">
+    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img/wallpaper-6wblur.png">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
@@ -187,8 +177,7 @@ https://templatemo.com/tm-530-mini-profile
               action="index.html"
               method="POST"
               id="tmContactForm"
-              class="tm-bg-black-transparent"
-            >
+              class="tm-bg-black-transparent">
               <div class="form-group">
                 <input
                   type="text"
@@ -222,26 +211,38 @@ https://templatemo.com/tm-530-mini-profile
               <div class="text-center">
                 <button
                   type="submit"
-                  class="btn tm-btn-submit rounded-0 text-white"
-                >
+                  class="btn tm-btn-submit rounded-0 text-white">
                   Submit
                 </button>
               </div>
             </form>
           </div>
         </div>
-        <!-- row -->
-        <div class="row">
-          <footer class="col-12">
-            <p class="text-center tm-copyright-text">
-            Copyright 2020 Mini Profile Page 
-            
-            - Design: Template Mo</p>
-          </footer>
-        </div>
+
       </div>
       <!-- container -->
     </div>
+
+    <!-- Social Media-->
+    <div id="tmSocialM">
+      <div class="container-fluid">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </div>
+    <!-- Ends Social Media-->
+
+    <!-- row -->
+    <div class="row">
+        <footer class="col-12">
+          <p class="text-center tm-copyright-text">
+          Copyright 2020 Mini Profile Page - Design: Template Mo</p>
+        </footer>
+    </div>
+
+
     <!-- section -->
     <script src="js/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
