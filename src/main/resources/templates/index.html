@@ -10,16 +10,28 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Stay to learn</title>
+
+    <link rel="shortcut icon" href="img/lnewslogo.png">
+    <title>L&EWS</title>
   </head>
 
   <body>
+
+    <!-- Navbar -->
       <div class="topnav">
-          <a class="active" href="#home">Home</a>
-          <a href="#news">Tutorials</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About Sab</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#tmSocialM">Contact</a>
+        <a href="javascript:void(0)">Topics ^
+          <!--<ul>
+            <li><a href="#">Web hosting</a></li>
+            <li><a href="#">Web builder</a></li>
+            <li><a href="#">Themes</a></li>
+          </ul>-->
+        </a>
       </div>
+    <!--End Navbar -->
+
     <!-- Welcome Section -->
     <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/wallpaper-6wblur.png">
       <div class="container-fluid tm-brand-container-outer">
@@ -29,7 +41,7 @@
             <!-- Black transparent bg -->
             <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
               <div class="tm-brand-container text-center">
-                <h1><img src=img/lnewslogo.png height="200px" width="200px"></img></h1>
+                <a href="index.html"><h1><img src=img/lnewslogo.png height="200px" width="200px"></img></h1></a>
                 <!--<h1 class="tm-brand-name">L&EWS</h1>-->
                 <p class="tm-brand-description mb-0">A perfect home for learning...</p>
               </div>
@@ -54,12 +66,10 @@
             </div>
             <!-- Brown bg -->
             <div class="col-md-5">
-                
               <div class="tm-welcome-right text-center">
                 <!--<i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>-->
                 <img src="img/sabbestpic.jpeg" alt="Sab's pic" height="300" width="270">
-                <p class="mb-0">
-                  <br/>                  
+                <p class="mb-0">                
                   <a href="https://www.linkedin.com/in/saborni-bhattacharya-5b523812a/"><h3>Saborni Bhattacharya</h3></a>
                 </p>
               </div>
@@ -72,7 +82,7 @@
     <!-- Category section -->
    
     <div class="container-fluid">
-      <i class="fa fa-2x fa-folder" aria-hidden="true">&nbsp;Tutorials</i>
+      <i id="tutorials" class="fa fa-2x fa-folder" aria-hidden="true">&nbsp;Tutorials</i>
     </div>
     
     <!-- End Category section -->
@@ -88,20 +98,18 @@
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-green">
-                  New Company
-                  <span class="tm-title-small">(2019 January to Present)</span>
+                  Advanced applications
+                  <span class="tm-title-small">...</span>
                 </h3>
                 <p class="mb-0">
-                  Nullam a tellus ultricies, ornare purus vel, porttitor massa.
-                  Aliquam facilisis purus ac eros sollicidudin, in mollis neque
-                  facilisis. Duis malesuada, mi non elementum malesuada.
+                  Videos on spring boot REST API,Spring Data JPA,etc.
                 </p>
               </div>
             </div>
 
             <div class="tm-portfolio-item">
               <div class="tm-portfolio-name text-white tm-bg-dark-gray subj">
-                Design School
+                Docker
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-dark-gray">
@@ -117,24 +125,6 @@
                 </p>
               </div>
             </div>
-
-            <div class="tm-portfolio-item">
-                <div class="tm-portfolio-name text-white tm-bg-green subj">
-                  Project Manager
-                </div>
-                <div class="tm-portfolio-description">
-                  <h3 class="tm-text-green">
-                    New Company
-                    <span class="tm-title-small">(2019 January to Present)</span>
-                  </h3>
-                  <p class="mb-0">
-                    Nullam a tellus ultricies, ornare purus vel, porttitor massa.
-                    Aliquam facilisis purus ac eros sollicidudin, in mollis neque
-                    facilisis. Duis malesuada, mi non elementum malesuada.
-                  </p>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
@@ -146,25 +136,25 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
+
             <div class="tm-contact-items-container">
               <div class="tm-contact-item">
-                <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
+                <i class="fas fa-5x fa-clock tm-contact-item-icon"></i>
                 <p class="mb-0">
-                  Quisque venenatis viverra ultrices. Lorem ipsum dolor sit
-                  amet. Nullam sit amet tempor nisl.
+                  All videos are short and crisp within 15 minutes.
                 </p>
               </div>
               <div class="tm-contact-item">
-                <i class="fas fa-5x fa-building tm-contact-item-icon"></i>
+                <i class="fas fa-5x fa-lightbulb tm-contact-item-icon"></i>
                 <p class="mb-0">
-                  You can absolutely feel free to use Mini Profile for your web page or any usage for your website.
+                  You can apply the logics learnt in these tutorials and innovate new products.
                 </p>
               </div>
 
               <div class="tm-contact-item">
-                <i class="fas fa-5x fa-balance-scale tm-contact-item-icon"></i>
+                <i class="fas fa-5x fa-stream tm-contact-item-icon"></i>
                 <p class="mb-0">
-                  You are NOT allowed to re-distribute this template in any download website. Else, it is illegal action.
+                  Varities of application using hot cake technologies.
                 </p>
               </div>
             </div>
@@ -243,41 +233,10 @@
     </div>
 
 
-    <!-- section -->
+    <!-- JS section -->
+    <script src="js/custom.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
-    <script>
-      function detectMsBrowser() {
-        using_ms_browser =
-          navigator.appName == "Microsoft Internet Explorer" ||
-          (navigator.appName == "Netscape" &&
-            navigator.appVersion.indexOf("Edge") > -1) ||
-          (navigator.appName == "Netscape" &&
-            navigator.appVersion.indexOf("Trident") > -1);
-
-        if (using_ms_browser == true) {
-          alert(
-            "Please use Chrome or Firefox for the best browsing experience!"
-          );
-        }
-      }
-      function setBrandMarginTop() {
-        var bottomContainerHeight = $(".tm-welcome-container").height();
-
-        $(".tm-brand-container-outer").css({
-          "margin-top": -bottomContainerHeight + "px"
-        });
-      }
-
-      $(function() {
-        setBrandMarginTop();
-        detectMsBrowser();
-
-        // Handle window resize event
-        $(window).resize(function() {
-          setBrandMarginTop();
-        });
-      });
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </body>
 </html>
