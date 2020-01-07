@@ -60,7 +60,7 @@ a:hover {
 }
 
 .tm-bg-blue {
-  background-color: #3398cc;
+  background-color: #447ad1;
 }
 
 .tm-bg-dark-gray {
@@ -447,20 +447,7 @@ body {
   text-align: center;
 }
 
-nav{ background-color: #293134; margin: 10px 0 0 0; }
-.wrapper{ width: 960px; margin: 0 auto; text-align: center; }
-nav ul{ list-style-type: none; padding: 0; margin: 0; }
-nav ul li{ display: inline-block; width: 155px; }
-nav ul li span{ margin: 0 0 0 7px; }
-nav ul li a,visited{ display: block; padding: 15px; color: #FFF; text-decoration: none;
-    transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
+.ytvid {
+  width : 400px;
+  height : 250px;
 }
-nav ul li a:hover{ color: #F46F4F; }
-
-.dropdown-active{ background-color: #000; }
-.dropdown-active a,visited{ color: #F46F4F; }
-nav ul ul{ position: absolute; background-color: #000; }
-nav ul ul li{ display: block; }
