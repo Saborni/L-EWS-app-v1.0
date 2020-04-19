@@ -19,4 +19,7 @@ public class ThymeleafController {
 
     @RequestMapping("/tutorials_utilproj.html")
     public String returnUtilityAppsTutorials(){return "tutorials_utilproj";}
+
+    @RequestMapping("/tutorials_j2eeproj.html")
+    public String returnJ2eeAppsTutorials(){return "tutorials_j2eeproj";}
 }
